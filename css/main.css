@@ -23,8 +23,12 @@ body {
   margin: 0;
 }
 
-header {
+.grid {
   background-color: #e2e2e2;
+}
+
+h1 {
+  text-align: center;
 }
 
 ul {
@@ -40,13 +44,26 @@ nav li a {
   text-decoration: none;
   display: inline-block;
   color: #0074d9;
-  text-align: left
+  text-align: center;
 }
 
 nav li a:hover {
   color: #fff;
   background-color: #0074d9;
 }
+
+@media only screen and (min-width: 38em) {
+
+  nav li a {
+    text-align: right;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+}
+
 
 
 
